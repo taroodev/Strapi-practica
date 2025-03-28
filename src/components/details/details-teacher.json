@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_details_details_teachers",
+  "info": {
+    "displayName": "detailsTeacher"
+  },
+  "options": {},
+  "attributes": {
+    "specialty": {
+      "type": "string",
+      "required": true
+    },
+    "experince": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "tittle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "details.details-date"
+    },
+    "dinamicZoneEvents": {
+      "type": "dynamiczone",
+      "components": [
+        "components-dinamic-zone.url-link",
+        "components-dinamic-zone.image-galery",
+        "components-dinamic-zone.component-strapi"
+      ],
+      "required": true
+    },
+    "teachers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::teacher.teacher",
+      "inversedBy": "events"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": true,
+      "component": "themes.theme"
+    }
+  }
+}

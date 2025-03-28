@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_dinamic_zone_image_galeries",
+  "info": {
+    "displayName": "imageGalery"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

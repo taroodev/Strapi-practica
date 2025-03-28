@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_dinamic_zone_url_links",
+  "info": {
+    "displayName": "url_link"
+  },
+  "options": {},
+  "attributes": {
+    "tittleLink": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

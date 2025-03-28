@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_dinamic_zone_component_strapis",
+  "info": {
+    "displayName": "component strapi"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

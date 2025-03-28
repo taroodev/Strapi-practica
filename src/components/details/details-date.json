@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_details_details_dates",
+  "info": {
+    "displayName": "details_date",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "place": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "time"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_themes_subthemes",
+  "info": {
+    "displayName": "subtheme",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

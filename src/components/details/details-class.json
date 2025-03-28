@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_details_details_classes",
+  "info": {
+    "displayName": "detailsClass"
+  },
+  "options": {},
+  "attributes": {
+    "schudele": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "classroom": {
+      "type": "integer"
+    }
+  }
+}

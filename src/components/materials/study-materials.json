@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_materials_study_materials",
+  "info": {
+    "displayName": "StudyMaterials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "onlyVideo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "onlyDoc": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "onlyImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
