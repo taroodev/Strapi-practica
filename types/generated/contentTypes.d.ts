@@ -470,11 +470,7 @@ export interface ApiTeacherTeacher extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    detailsTeacher: Schema.Attribute.Component<
-      'details.details-teacher',
-      true
-    > &
-      Schema.Attribute.Required;
+    detailsTeacher: Schema.Attribute.Component<'details.details-teacher', true>;
     email: Schema.Attribute.Email &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;

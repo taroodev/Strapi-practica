@@ -65,10 +65,12 @@ export interface DetailsDetailsDate extends Struct.ComponentSchema {
 export interface DetailsDetailsTeacher extends Struct.ComponentSchema {
   collectionName: 'components_details_details_teachers';
   info: {
+    description: '';
     displayName: 'detailsTeacher';
   };
   attributes: {
     experince: Schema.Attribute.String & Schema.Attribute.Required;
+    rich1: Schema.Attribute.RichText;
     specialty: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }

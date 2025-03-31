@@ -1,7 +1,8 @@
 {
   "collectionName": "components_details_details_teachers",
   "info": {
-    "displayName": "detailsTeacher"
+    "displayName": "detailsTeacher",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,6 +13,9 @@
     "experince": {
       "type": "string",
       "required": true
+    },
+    "rich1": {
+      "type": "richtext"
     }
   }
 }

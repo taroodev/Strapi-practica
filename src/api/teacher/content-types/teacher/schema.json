@@ -42,7 +42,7 @@
       "type": "component",
       "repeatable": true,
       "component": "details.details-teacher",
-      "required": true
+      "required": false
     },
     "events": {
       "type": "relation",
