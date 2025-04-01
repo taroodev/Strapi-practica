@@ -18,15 +18,7 @@ export default {
             middlewares: [],
         },
     },
-    {
-        method: "PUT",
-        path: "/class/:id/:Name",
-        handler: "class.classJoinTeacher",
-        config: {
-          policies: [],
-          middlewares: []
-        }
-      }
+  
     ],   
     };
     

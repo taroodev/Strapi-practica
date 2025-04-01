@@ -16,12 +16,6 @@
     }
   },
   "attributes": {
-    "class": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::class.class",
-      "inversedBy": "teachers"
-    },
     "name": {
       "type": "string",
       "required": true,
@@ -49,6 +43,15 @@
       "relation": "manyToMany",
       "target": "api::event.event",
       "mappedBy": "teachers"
+    },
+    "classes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::class.class",
+      "inversedBy": "teachers"
+    },
+    "NumeroClases": {
+      "type": "integer"
     }
   }
 }

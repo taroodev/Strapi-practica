@@ -466,7 +466,7 @@ export interface ApiTeacherTeacher extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
-    class: Schema.Attribute.Relation<'manyToMany', 'api::class.class'>;
+    classes: Schema.Attribute.Relation<'manyToMany', 'api::class.class'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -486,6 +486,7 @@ export interface ApiTeacherTeacher extends Struct.CollectionTypeSchema {
     name: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
+    NumeroClases: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
